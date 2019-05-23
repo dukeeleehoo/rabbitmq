@@ -14,9 +14,17 @@ public class MsgSend {
     @Autowired
     private AmqpTemplate rabbitmqTemplate;
 
-    public String sendMsg(String msg){
-        rabbitmqTemplate.convertAndSend("hello",msg);
-        return msg;
+    public void sendMsg(String msg) {
+
+        while (true){
+            rabbitmqTemplate.convertAndSend("hello",msg);
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+        }
     }
 
 
