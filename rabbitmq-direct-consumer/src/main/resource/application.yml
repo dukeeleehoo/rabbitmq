@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: rabbitmq-direct-consumer
+
+  rabbitmq:
+    host: 192.168.184.129
+    port: 5672
+    username: test
+    password: test
+
+
+#交换器名称 自定义配置
+mq.config.exchange.directname: log.direct
+
+#info日志处理消息队列名称
+mq.config.queue.info: log.info
+
+#info路由键名称
+mq.config.queue.info.routing.key: log.info.routing.key
+
+
+#error日志处理消息队列名称
+mq.config.queue.error: log.error
+
+#error路由键名称
+mq.config.queue.error.routing.key: log.error.routing.key
+

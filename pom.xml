@@ -20,7 +20,8 @@
 
 
 <modules>
-  <module>hellorabbitmq</module>
-
+    <module>hellorabbitmq</module>
+    <module>rabbitmq-direct-consumer</module>
+  <module>rabbitmq-direct-provider</module>
 </modules>
 </project>

@@ -3,5 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hellorabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-direct-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-direct-provider" charset="UTF-8" />
   </component>
 </project>

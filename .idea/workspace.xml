@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93da073a-3e3e-4e78-970b-457d4d84d625" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hellorabbitmq/src/main/java/com/li/rebbitmqconfig/RabbitmqConfig.java" afterDir="false" />
+    <list default="true" id="b791b717-3407-4d70-8d43-22495b76f8db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rabbitmq-direct-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-direct-consumer/src/main/java/com/li/ErrorReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-direct-consumer/src/main/java/com/li/InfoReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-direct-consumer/src/main/java/com/li/RabbitMqDirectConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-direct-consumer/src/main/resource/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-direct-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-direct-provider/src/main/java/com/li/MsgSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-direct-provider/src/main/resource/aplication.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hellorabbitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hellorabbitmq/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellorabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hellorabbitmq/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellorabbitmq/src/test/java/com/li/HellorabbitmqApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hellorabbitmq/src/test/java/com/li/HellorabbitmqApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/hellorabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq-direct-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq-direct-provider/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,116 +28,121 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1752089323">
+    <session id="-457982668">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
-          <entry key="xml" value="2" />
-          <entry key="yml" value="1" />
+          <entry key="java" value="9" />
+          <entry key="xml" value="8" />
+          <entry key="yml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
-          <entry key="XML" value="2" />
-          <entry key="YAML" value="1" />
+          <entry key="JAVA" value="9" />
+          <entry key="XML" value="8" />
+          <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="295" />
-          <entry key="xml" value="17" />
-          <entry key="yml" value="65" />
+          <entry key="dummy" value="87" />
+          <entry key="java" value="434" />
+          <entry key="xml" value="13" />
+          <entry key="yml" value="397" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="295" />
-          <entry key="XML" value="17" />
-          <entry key="YAML" value="65" />
+          <entry key="JAVA" value="434" />
+          <entry key="PLAIN_TEXT" value="87" />
+          <entry key="XML" value="13" />
+          <entry key="YAML" value="397" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hellorabbitmq/pom.xml">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-direct-consumer/src/main/resource/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="120">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-direct-consumer/src/main/java/com/li/InfoReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="225">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hellorabbitmq/src/main/java/com/li/HellorabbitmqApplication.java">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-direct-provider/src/main/java/com/li/RabbitMqDirectProviderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hellorabbitmq/src/main/java/com/li/rebbitmqconfig/RabbitmqConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="150">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hellorabbitmq/src/test/java/com/li/HellorabbitmqApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-direct-provider/src/main/java/com/li/MsgSend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="401">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hellorabbitmq/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-direct-provider/src/test/java/com/li/RabbitMqDirectProviderAApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            <state relative-caret-position="210">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <folding>
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-direct-provider/src/main/resource/aplication.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>info</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>error</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -142,11 +157,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-direct-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/hellorabbitmq/pom.xml" />
-        <option value="$PROJECT_DIR$/hellorabbitmq/src/main/java/com/li/rebbitmqconfig/RabbitmqConfig.java" />
-        <option value="$PROJECT_DIR$/hellorabbitmq/src/test/java/com/li/HellorabbitmqApplicationTests.java" />
-        <option value="$PROJECT_DIR$/hellorabbitmq/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-direct-consumer/src/main/java/com/li/RabbitMqDirectConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-direct-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-direct-provider/src/main/java/com/li/RabbitMqDirectProviderApplication.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-direct-consumer/src/main/resource/application.yml" />
+        <option value="$PROJECT_DIR$/rabbitmq-direct-consumer/src/main/java/com/li/ErrorReceiver.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-direct-consumer/src/main/java/com/li/InfoReceiver.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-direct-provider/src/main/resource/aplication.yml" />
+        <option value="$PROJECT_DIR$/rabbitmq-direct-provider/src/main/java/com/li/MsgSend.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-direct-provider/src/test/java/com/li/RabbitMqDirectProviderAApplication.java" />
       </list>
     </option>
   </component>
@@ -175,36 +197,22 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hellorabbitmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="rabbitmq-direct-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hellorabbitmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rabbitmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rabbitmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rabbitmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="rabbitmq-direct-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="25" />
+    <option name="y" value="123" />
+    <option name="width" value="1620" />
+    <option name="height" value="880" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -213,6 +221,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,48 +245,6 @@
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="hellorabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="hellorabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="hellorabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="li" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="hellorabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="li" type="462c0819:PsiDirectoryNode" />
-              <item name="rebbitmqconfig" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="hellorabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="hellorabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,6 +259,67 @@
               <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="hellorabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="li" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-direct-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-direct-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-direct-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-direct-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-direct-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-direct-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-direct-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-direct-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-direct-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -301,16 +329,33 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../私活/paike" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../私活/paike" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\code\家里自己瞎弄\rabbitmq\rabbitmq-direct-provider\src\test\java" />
+      <recent name="G:\code\家里自己瞎弄\rabbitmq\rabbitmq-direct-provider\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.li" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="java.com.li" />
+      <recent name="com.li" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\code\家里自己瞎弄\rabbitmq\rabbitmq-direct-provider\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -324,9 +369,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HellorabbitmqApplicationTests.testProvider">
-    <configuration name="HellorabbitmqApplicationTests.testProvider" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hellorabbitmq" />
+  <component name="RunManager" selected="JUnit.RabbitMqDirectProviderAApplication.testSend">
+    <configuration name="RabbitMqDirectProviderAApplication.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmqdirectprovider" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.li.*" />
@@ -334,8 +379,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.li" />
-      <option name="MAIN_CLASS_NAME" value="com.li.HellorabbitmqApplicationTests" />
-      <option name="METHOD_NAME" value="testProvider" />
+      <option name="MAIN_CLASS_NAME" value="com.li.RabbitMqDirectProviderAApplication" />
+      <option name="METHOD_NAME" value="testSend" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -348,13 +393,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RabbitMqDirectConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmqdirectconsumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.li.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.li.RabbitMqDirectConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitMqDirectProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmqdirectprovider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.li.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.li.RabbitMqDirectProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.HellorabbitmqApplication" />
-      <item itemvalue="JUnit.HellorabbitmqApplicationTests.testProvider" />
+      <item itemvalue="Spring Boot.RabbitMqDirectProviderApplication" />
+      <item itemvalue="Spring Boot.RabbitMqDirectConsumerApplication" />
+      <item itemvalue="JUnit.RabbitMqDirectProviderAApplication.testSend" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HellorabbitmqApplicationTests.testProvider" />
+        <item itemvalue="JUnit.RabbitMqDirectProviderAApplication.testSend" />
+        <item itemvalue="Spring Boot.RabbitMqDirectConsumerApplication" />
+        <item itemvalue="Spring Boot.RabbitMqDirectProviderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -363,45 +438,87 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="93da073a-3e3e-4e78-970b-457d4d84d625" name="Default Changelist" comment="" />
-      <created>1558618722758</created>
+      <changelist id="b791b717-3407-4d70-8d43-22495b76f8db" name="Default Changelist" comment="" />
+      <created>1558863858124</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558618722758</updated>
-      <workItem from="1558618725012" duration="1331000" />
+      <updated>1558863858124</updated>
+      <workItem from="1558863860525" duration="141000" />
+      <workItem from="1558864021357" duration="16000" />
+      <workItem from="1558864053813" duration="69000" />
+      <workItem from="1558864361305" duration="1733000" />
+      <workItem from="1558866115978" duration="405000" />
+      <workItem from="1558866554624" duration="57000" />
+      <workItem from="1558866641735" duration="47000" />
+      <workItem from="1558866707894" duration="3271000" />
+      <workItem from="1558959255123" duration="2558000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="RabbitMqDirectProviderAApplication_testSend - 2019.05.27 at 20h 56m 48s.xml">
+      <configuration name="RabbitMqDirectProviderAApplication.testSend" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1331000" />
+    <option name="totallyTimeSpent" value="8297000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="20" y="99" width="1296" height="704" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18353577" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48336253" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32969153" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.15460993" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32956383" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32749563" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.15460993" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -410,54 +527,105 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hellorabbitmq/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-direct-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-direct-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="338">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hellorabbitmq/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="90">
+          <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hellorabbitmq/src/main/java/com/li/rebbitmqconfig/RabbitmqConfig.java">
+    <entry file="file://$PROJECT_DIR$/rabbitmq-direct-consumer/src/main/java/com/li/RabbitMqDirectConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="165">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-direct-consumer/src/main/java/com/li/ErrorReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-direct-provider/src/main/java/com/li/RabbitMqDirectProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hellorabbitmq/src/main/java/com/li/HellorabbitmqApplication.java">
+    <entry file="file://$PROJECT_DIR$/rabbitmq-direct-consumer/src/main/java/com/li/InfoReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="225">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-direct-provider/src/main/resource/aplication.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-direct-consumer/src/main/resource/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-direct-provider/src/main/java/com/li/MsgSend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-direct-provider/src/test/java/com/li/RabbitMqDirectProviderAApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellorabbitmq/src/test/java/com/li/HellorabbitmqApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellorabbitmq/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>

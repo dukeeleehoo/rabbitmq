@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hellorabbitmq" />
+        <module name="rabbitmqdirectconsumer" />
+        <module name="rabbitmqdirectprovider" />
       </profile>
     </annotationProcessing>
   </component>
