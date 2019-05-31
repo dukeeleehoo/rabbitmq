@@ -1,6 +1,5 @@
 package com.li;
 
-import com.li.MsgSend;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,17 +7,19 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = RabbitMqDirectProviderAApplication.class)
-public class RabbitMqDirectProviderAApplication {
+@SpringBootTest(classes = RabbitMqDirectProviderApplication.class)
+public class RabbitMqDirectProviderApplicationTests {
 
 
     @Autowired
-    private MsgSend msgSend;
+    private InfoMsgSend msgSend;
 
-
+    /**
+     * 测试发送info日志
+     */
     @Test
     public void testSend() {
-        msgSend.sendMsg("hello hello");
+        msgSend.sendMsg("  info    hello hello");
     }
 
 

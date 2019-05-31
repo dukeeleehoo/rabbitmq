@@ -10,16 +10,13 @@ import org.springframework.stereotype.Component;
  * 消息发送者
  */
 @Component
-public class MsgSend {
+public class InfoMsgSend {
 
     @Autowired
     private AmqpTemplate rabbitmqTemplate;
 
-
-
-    @Value("${mq.config.exchange}")
-    private String exchange;
-
+    @Value("${mq.config.exchange.directname}")
+    private String exchangeName;
 
 
     @Value("${mq.config.queue.info.routing.key}")
@@ -28,9 +25,10 @@ public class MsgSend {
     public void sendMsg(String msg) {
 
         while (true){
-            rabbitmqTemplate.convertAndSend(exchange,infoRoutingKey,"info信息");
+            rabbitmqTemplate.convertAndSend(exchangeName, infoRoutingKey, msg);
+            rabbitmqTemplate.convertAndSend(exchangeName, "log.info.routing.key", "error");
             try {
-                Thread.sleep(1000);
+                Thread.sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
